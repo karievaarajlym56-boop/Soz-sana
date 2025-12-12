@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ОЙЫНДАР ЖИНАҒЫ | My Games</title>
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#0072BC">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #0072BC;
+            --accent-gold: #F2C14E;
+            --bg-color: #F7F7F7;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .app-header {
+            background-color: var(--primary-blue);
+            color: white;
+            width: 100%;
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .app-header h1 {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .menu-container {
+            width: 90%;
+            max-width: 450px;
+            padding: 0 10px;
+        }
+
+        .game-link {
+            display: block;
+            background: white;
+            border: 2px solid var(--primary-blue);
+            color: var(--primary-blue);
+            padding: 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 15px;
+            transition: all 0.2s;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            font-size: 18px;
+            position: relative;
+        }
+
+        .game-link:active {
+            transform: scale(0.98);
+            background-color: var(--primary-blue);
+            color: white;
+        }
+        
+        .game-link span {
+            float: right;
+            color: var(--accent-gold);
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app-header">
+        <h1>ҚАЗАҚША ОЙЫНДАР 🏆</h1>
+        <small>Сілтемелер жинағы</small>
+    </div>
+
+    <div class="menu-container">
+        <a href="https://сіздің_логиніңіз.github.io/kazakh-games/wordgame.html" class="game-link">
+            🧩 Ұзын Сөз – Көп Сөз <span>›</span>
+        </a>
+
+        <a href="https://сіздің_логиніңіз.github.io/kazakh-games/tirkes.html" class="game-link">
+            🎯 Тұрақты Тіркес <span>›</span>
+        </a>
+        
+        <a href="https://сіздің_логиніңіз.github.io/kazakh-games/puzzle.html" class="game-link">
+            🖼️ Сөз Puzzle <span>›</span>
+        </a>
+
+        <a href="https://сіздің_логиніңіз.github.io/kazakh-games/puzzle.html" class="game-link">
+            🖼️ Сөз Band <span>›</span>
+        </a>
+
+        <a href="https://сіздің_логиніңіз.github.io/kazakh-games/puzzle.html" class="game-link">
+            JQ <span>›</span>
+        </a>
+
+        <a href="#" class="game-link" style="opacity: 0.5;">
+            ⚔️ Онлайн Дуэль (Жақында) <span>›</span>
+        </a>
+        
+        <p style="text-align: center; color: #888; font-size: 12px; margin-top: 30px;">
+            Барлық ойындар бір жерде жинақталған.
+        </p>
+
+    </div>
+
+</body>
+</html>
